@@ -82,6 +82,11 @@ python fake200.py https://site.com --proxy http://127.0.0.1:8080 --insecure
 
 只对你有授权的资产使用。本人对滥用不承担责任。
 
+## 侦察套件
+
+- [scan-diff](https://github.com/wdfdsyhb/scan-diff) — 快照 diff，盯住每次扫描冒出来的新资产
+- [fw-diff](https://github.com/wdfdsyhb/fw-diff) — 固件 rootfs diff，版本对比取证
+
 ## License
 
 MIT
