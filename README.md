@@ -1,5 +1,7 @@
 # fake200
 
+[![CI](https://github.com/wdfdsyhb/fake200/actions/workflows/tests.yml/badge.svg)](https://github.com/wdfdsyhb/fake200/actions/workflows/tests.yml)
+
 **Detect WAF "fake 200" block pages and soft-404s that poison your batch recon results.**
 识别批量扫描里的"假 200"——WAF 拦截页和 CMS 软 404，它们让你的扫描结果虚高。
 
