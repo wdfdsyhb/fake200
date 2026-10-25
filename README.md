@@ -1,9 +1,12 @@
-# fake200
+# fake200 · 假 200 检测
 
 [![CI](https://github.com/wdfdsyhb/fake200/actions/workflows/tests.yml/badge.svg)](https://github.com/wdfdsyhb/fake200/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)
 
-**Detect WAF "fake 200" block pages and soft-404s that poison your batch recon results.**
-识别批量扫描里的"假 200"——WAF 拦截页和 CMS 软 404，它们让你的扫描结果虚高。
+> 对 URL 列表逐个验真：用厂商指纹加同源随机路径基线，把 WAF 假 200 和 CMS 软 404 从批量扫描结果里挑出来。
+>
+> English: Verify each URL in a list with vendor fingerprints and a random-path baseline, separating real 200s from WAF block pages and CMS soft-404s.
 
 ## 问题
 
@@ -92,3 +95,9 @@ python fake200.py https://site.com --proxy http://127.0.0.1:8080 --insecure
 ## License
 
 MIT
+
+---
+
+## English
+
+Full English documentation: [README_EN.md](README_EN.md)
